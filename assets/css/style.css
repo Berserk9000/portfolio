@@ -77,20 +77,22 @@ header nav {
   flex-wrap: wrap;
 }
 .paragraph{
-  font-size: 28px;
+  font-size: 22px;
   color: #131e61 ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
   padding: 35px;
 }
 .big-img img{
   width: 100%;
   height: auto;
-}
-.big-img{
-  margin: 50px;
-  padding: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
 
 }
- 
+.big-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:0px 50px 50px 50px;
+    margin:0px 50px 50px 50px
+}
+  
