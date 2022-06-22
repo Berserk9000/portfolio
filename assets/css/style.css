@@ -17,7 +17,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     background-image: url('../images/milky.jpg');
-    background-size:cover
+    background-size:cover;
 }
 header h1 {
     color:#BEC3C6;
@@ -69,12 +69,16 @@ header nav {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin: 0 auto
+    margin: 0 auto;
+    
 }
 .selfie img{
-  width: 80%;
+  width: 90%;
   height: auto;
   flex-wrap: wrap;
+  border: 3px solid #131E61;
+  border-radius: 15px;
+
 }
 .paragraph{
   font-size: 22px;
@@ -86,13 +90,27 @@ header nav {
 .big-img img{
   width: 100%;
   height: auto;
+  border: 3px solid #131E61;
+  border-radius: 15px;
 
 }
 .big-img{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding:0px 50px 50px 50px;
-    margin:0px 50px 50px 50px
+    padding:20px 50px 20px 50px;
+    margin:20px 50px 20px 50px
 }
-  
+.lil-img img{
+  width: 80%;
+  height: auto;
+  border: 3px solid #131E61;
+  border-radius: 15px;
+}
+.lil-img{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 200px;
+  margin-left: 200px;
+}
