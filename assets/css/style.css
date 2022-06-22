@@ -87,30 +87,39 @@ header nav {
   justify-content: center;
   padding: 35px;
 }
+.work-pics {
+  display: flex;
+  flex-flow:column;
+  align-items: center;
+}
+
+
 .big-img img{
   width: 100%;
   height: auto;
-  border: 3px solid #131E61;
-  border-radius: 15px;
-
+  padding: 25px;
+  
 }
 .big-img{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding:20px 50px 20px 50px;
-    margin:20px 50px 20px 50px
+  
 }
 .lil-img img{
   width: 80%;
   height: auto;
-  border: 3px solid #131E61;
-  border-radius: 15px;
+  padding: 25px;
+ 
 }
 .lil-img{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-left: 200px;
-  margin-left: 200px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
