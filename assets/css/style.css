@@ -44,9 +44,7 @@ header nav {
     color: #BEC3C6;
   }
 
-
-
-  .section-title {
+.section-title {
     font-size: 48px;
     padding-bottom: 20px;
     color: #131E61;
@@ -56,6 +54,14 @@ header nav {
   border-bottom: 3px solid #131E61;
   }
 
+.about-info{
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .selfie {
     width: 380px;
     height: 220px;
