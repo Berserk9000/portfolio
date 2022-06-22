@@ -91,31 +91,36 @@ header nav {
   display: flex;
   flex-flow:column;
   align-items: center;
+  padding: 25px;
 }
 
 
 .big-img img{
-  width: 100%;
+  width: 90%;
   height: auto;
-  padding: 25px;
-  
+  border:3px solid #131E61;
+  border-radius: 15px;
+ 
 }
 .big-img{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding-bottom: 15px;
   
 }
 .lil-img img{
   width: 80%;
   height: auto;
-  padding: 25px;
- 
+  border: 3px solid #131E61;
+  border-radius: 15px;
 }
+
 .lil-img{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  padding-top:30px;
 }
 .center {
   display: block;
