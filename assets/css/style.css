@@ -17,7 +17,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     background-image: url('../images/milky.jpg');
-    background-size: 
+    background-size:cover
 }
 header h1 {
     color:#BEC3C6;
@@ -43,3 +43,29 @@ header nav {
     font-size: 120%;
     color: #BEC3C6;
   }
+
+
+
+  .section-title {
+    font-size: 48px;
+    padding-bottom: 20px;
+    color: #131E61;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+  border-bottom: 3px solid #131E61;
+  }
+
+.selfie {
+    width: 380px;
+    height: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 0 auto
+}
+.selfie img{
+  width: 80%;
+  height: auto;
+}
