@@ -74,4 +74,23 @@ header nav {
 .selfie img{
   width: 80%;
   height: auto;
+  flex-wrap: wrap;
 }
+.paragraph{
+  font-size: 28px;
+  color: #131e61 ;
+  padding: 35px;
+}
+.big-img img{
+  width: 100%;
+  height: auto;
+}
+.big-img{
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+ 
